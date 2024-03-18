@@ -25,8 +25,8 @@ def reverse_bubblesort(numbs):
     return numbs
 
 
-nums = array.array("i", [100, 4, 8, 3, 5, 7, 29, 5, 33, 1, 55, 42, 2, 6, 9, 19, 32, 31])
-print(bubblesort(nums))
+data = array.array("i", [100, 4, 8, 3, 5, 7, 29, 5, 33, 1, 55, 42, 2, 6, 9, 19, 32, 31])
+print(bubblesort(data))
 
 print("")
-print(reverse_bubblesort(nums))
+print(reverse_bubblesort(data))
