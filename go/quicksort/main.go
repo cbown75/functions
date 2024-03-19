@@ -36,7 +36,7 @@ func main() {
   data := []int{100, 4, 8, 3, 5, 7, 29, 5, 33, 1, 55, 42, 101, 202, 205, 76, 2, 6, 9, 19, 32, 31}
 
   fmt.Println(data)
-  quicksort(data, 0, cap(data)-1)
+  quicksort(data, 0, len(data)-1)
   fmt.Println(data)
 }
 

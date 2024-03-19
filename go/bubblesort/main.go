@@ -5,7 +5,7 @@ import "fmt"
 
 func bubblesort(numbs []int) {
   for i := range numbs {
-    for r := 0; r < (cap(numbs) - i - 1); r++ {
+    for r := 0; r < (len(numbs) - i - 1); r++ {
       left := numbs[r]
       right := numbs[r+1]
       if left > right {

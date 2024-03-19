@@ -1,0 +1,7 @@
+[package]
+name = "wol"
+version = "1.0.0"
+description = "A Wake On Lan Utility in Rust"
+
+[dependencies]
+wake-on-lan = "0.2.0"
