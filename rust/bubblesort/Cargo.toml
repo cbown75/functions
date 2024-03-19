@@ -1,0 +1,5 @@
+[package]
+name = "bubblesort"
+version = "1.0.0"
+description = "A Bubble Sort in Rust"
+

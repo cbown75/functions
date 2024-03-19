@@ -1,0 +1,4 @@
+[package]
+name = "quicksort"
+version = "1.0.0"
+description = "A Quick Sort in Rust"
