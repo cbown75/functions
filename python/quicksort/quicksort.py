@@ -1,6 +1,5 @@
 import array
 
-
 def part(arr, low, high):
     pinum = arr[high]
     l = low
@@ -12,7 +11,6 @@ def part(arr, low, high):
 
     return l
 
-
 def quicksort(arr, low, high):
     if low < high:
         pi = part(arr, low, high)
@@ -22,7 +20,6 @@ def quicksort(arr, low, high):
         quicksort(arr, pi + 1, high)
 
     return arr
-
 
 data = array.array(
     "i", [100, 4, 8, 101, 102, 105, 3, 5, 7, 29, 5, 33, 1, 55, 42, 2, 6, 9, 19, 32, 31]
